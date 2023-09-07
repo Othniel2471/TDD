@@ -93,7 +93,7 @@ Install this project with:
 > To run the project, execute the following command:
 
 ```sh
-  ruby list_test_case.rb
+  ruby rspec spec
 ```
 
 ### Run tests
