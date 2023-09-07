@@ -1,10 +1,10 @@
 class Solver
-  def factorial(n)
-    raise ArgumentError, 'impute must be a none negative integer' if n < 0
-    return 1 if n == 0
+  def factorial(num)
+    raise ArgumentError, 'impute must be a none negative integer' if num.negative?
+    return 1 if num.zero?
 
     product = 1
-    (1..n).each do |i|
+    (1..num).each do |i|
       product *= i
     end
     product
@@ -14,15 +14,15 @@ class Solver
     input_string.reverse
   end
 
-  def fizzbuzz(n)
-    if n % 3 == 0 && n % 5 == 0
-      return 'fizzbuzz'
-    elsif n % 3 == 0
-      return 'fizz'
-    elsif n % 5 == 0
-      return 'buzz'
+  def fizzbuzz(num)
+    if (num % 3).zero? && (num % 5).zero?
+      'fizzbuzz'
+    elsif (num % 3).zero?
+      'fizz'
+    elsif (num % 5).zero?
+      'buzz'
     else
-      return n.to_s
+      num.to_s
     end
   end
 end
