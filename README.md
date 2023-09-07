@@ -20,9 +20,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 MyEnumerable <a name="about-project"></a>
+# 📖 TDD <a name="about-project"></a>
 
-> **School library** This application is designed to help the librarian manage the library's collection of books and keep track of who borrows them. It provides an organized and efficient way to add students, teachers, and books, and maintain records of borrowings
+> **TDD** This application is designed to help the librarian manage the library's collection of books and keep track of who borrows them. It provides an organized and efficient way to add students, teachers, and books, and maintain records of borrowings
 
 ## 🛠 Built With <a name="built-with"></a>
 
